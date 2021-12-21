@@ -1,7 +1,48 @@
-.sec1{
-    background-color: rgb(0, 47, 255);
-  color: rgb(255, 255, 255);
-  border: 2px solid rgb(226, 26, 26);
-  margin: 20px;
-  padding: 20px; 
+
+.Tru-Pic img{
+width:200px ;
+height:225px ;
+
 }
+.sec1{
+display: flex;
+flex-direction: row-reverse;
+}
+.about-me{
+margin-left: 20px;
+}
+nav{
+    display: none;
+}
+div:hover nav{
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.div-footer{
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: rgb(96, 149, 228); */
+    color: white;
+    text-align: center;
+}
+.searchbar input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
